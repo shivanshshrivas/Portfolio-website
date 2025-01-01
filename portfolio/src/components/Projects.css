@@ -1,0 +1,36 @@
+/* Infinite scrolling animation for each column */
+.scroll-container {
+    position: relative;
+    mask-image: linear-gradient(to top, transparent, black 15%, black 85%, transparent);
+    -webkit-mask-image: linear-gradient(to top, transparent, black 15%, black 85%, transparent);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-in;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.column {
+    animation: scrollUp 20s linear infinite; /* Default speed */
+}
+
+/* Add paused class for stopped animation */
+.column.paused {
+    animation-play-state: paused;
+}
+
+/* Slower and faster variations for each column */
+.column-1 {
+    animation-duration: 25s;
+}
+.column-2 {
+    animation-duration: 15s;
+}
+
+/* Keyframes for perfectly seamless scrolling */
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0); /* Start at the top */
+    }
+    100% {
+        transform: translateY(-100%); /* Scroll to the exact height of the content */
+    }
+}
