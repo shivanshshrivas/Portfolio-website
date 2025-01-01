@@ -16,35 +16,35 @@ const projects = [
     skills: ["Next.js", "Flask", "PostgreSQL"],
     description:
       "Streamlined backend functionality and developed a dynamic code visualizer to enhance code comprehension for beginners.",
-    github: "https://github.com/shivanshshrivas/code-lingo",
+    github: "https://github.com/an-siuu-man/code-lingo",
   },
   {
     title: "Hack MidTerms",
     skills: ["Next.js", "Flask", "Axios", "Pinata IPFS API"],
     description:
       "Implemented Firebase authentication and personalized flashcard storage using Pinata IPFS, enhancing user interactions.",
-    github: "https://github.com/shivanshshrivas/hack-midterms",
+    github: "https://github.com/an-siuu-man/hackmidterms",
   },
   {
     title: "Survival Cyberdeck",
     skills: ["Raspberry Pi 5", "C", "Raspbian OS"],
     description:
       "Led a team to develop a cyberdeck integrating GPS, humidity, and temperature sensors, managing milestones with Coda.io.",
-    github: "https://github.com/shivanshshrivas/survival-cyberdeck",
+    github: "https://github.com/shivanshshrivas/SurvivalCyberDeck",
   },
   {
     title: "Self-Driving Car Prototype",
     skills: ["C", "Python", "Raspberry Pi 4", "TFmini Lidar Sensor"],
     description:
       "Developed a self-driving car prototype with automatic steering and obstacle detection using a TFmini Lidar sensor.",
-    github: "https://github.com/shivanshshrivas/self-driving-car",
+    github: "https://github.com/shivanshshrivas/",
   },
   {
     title: "GUI Boolean Logic Calculator",
     skills: ["C++", "Express.js", "React.js", "Node.js"],
     description:
       "Built a Boolean logic calculator with GUI and CLI interfaces, adhering to IEEE standards for future scalability.",
-    github: "https://github.com/shivanshshrivas/boolean-calculator",
+    github: "https://github.com/jahnvi-maddila/EECS-348-Project",
   },
 ];
 
