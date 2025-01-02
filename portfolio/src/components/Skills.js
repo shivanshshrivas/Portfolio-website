@@ -1,10 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, Html } from "@react-three/drei";
+import python from "../assets/python.png";
 import "./Skills.css";
 
 const skills = [
-  { name: "Python", icon: "🐍", link: "https://www.python.org/" },
+  { name: "Python", icon: {python}, link: "https://www.python.org/" },
   { name: "C++", icon: "👨‍💻", link: "https://isocpp.org/" },
   { name: "C", icon: "🔧", link: "https://en.wikipedia.org/wiki/C_(programming_language)" },
   { name: "Keil uVision", icon: "📟", link: "https://www.keil.com/" },
