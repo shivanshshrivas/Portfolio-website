@@ -5,7 +5,7 @@ import python from "../assets/python.png";
 import "./Skills.css";
 
 const skills = [
-  { name: "Python", icon: {python}, link: "https://www.python.org/" },
+  { name: "Python", icon: <img src={python} alt="Python" style={{ width: "40px", height: "40px" }} />, link: "https://www.python.org/" },
   { name: "C++", icon: "👨‍💻", link: "https://isocpp.org/" },
   { name: "C", icon: "🔧", link: "https://en.wikipedia.org/wiki/C_(programming_language)" },
   { name: "Keil uVision", icon: "📟", link: "https://www.keil.com/" },
@@ -73,7 +73,7 @@ const SkillSphere = () => {
               <Html distanceFactor={10}>
                 <div className="skill-icon">
                   <span className="icon">{skill.icon}</span>
-                  <span className="name">{skill.name}</span>
+                  <span className="skill-name">{skill.name}</span>
                 </div>
               </Html>
             </mesh>
